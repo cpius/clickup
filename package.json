@@ -1,0 +1,21 @@
+{
+  "name": "clickup-cli",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Small CLI for working with ClickUp tasks using a personal API token.",
+  "scripts": {
+    "clickup:me": "node clickup.js me",
+    "clickup:teams": "node clickup.js teams",
+    "clickup:spaces": "node clickup.js spaces",
+    "clickup:folders": "node clickup.js folders",
+    "clickup:lists": "node clickup.js lists",
+    "clickup:tasks": "node clickup.js tasks",
+    "clickup:search": "node clickup.js search",
+    "clickup:task": "node clickup.js task",
+    "clickup:comments": "node clickup.js comments",
+    "clickup:comment": "node clickup.js comment",
+    "clickup:update-task": "node clickup.js update-task",
+    "clickup:update-comment": "node clickup.js update-comment",
+    "clickup:attach": "node clickup.js attach"
+  }
+}
